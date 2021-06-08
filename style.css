@@ -1,0 +1,547 @@
+/* Файл index */
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+* {
+    color: #000000;
+    font-size: 1.0em;
+}
+
+body {
+    min-width: 700px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* Файл index */
+
+/* Файл content active */
+h3 {
+    font: 36px/45px 'Fjalla One';
+    color: #006b5d;
+    text-shadow: 1px 0px black;
+    text-transform: uppercase;
+    margin-top: 102px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.grid_3 {
+    width: 270px;
+}
+
+li3 {
+    padding: 0px 30px 0px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    min-height: 1px;
+}
+
+.active_content div {
+    width: 100%;
+    margin: 40px auto;
+    height: 200px;
+    background-color: #ffffff;
+    min-height: 150px;
+    padding: 0px 0 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+/* Файл content active */
+
+/* Файл contacts */
+.contacts {
+    margin: 15px 0 10px;
+}
+
+.contacts-title {
+    padding-left: 90px;
+    margin: 20px;
+
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.quote {
+    display: block;
+    position: relative;
+    padding: 0 0 0 33px;
+    margin: 20px 0 20px;
+    font-style: italic;
+}
+
+.quote::before {
+    position: absolute;
+    content: " «";
+    top: 0;
+    left: 85px;
+    font-size: 36px;
+    color: #006b5d;
+}
+
+.quote p {
+    padding-left: 90px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    quotes: none;
+}
+
+.author {
+    display: block;
+    padding-left: 90px;
+    margin: 4px 0;
+}
+
+.contacts img {
+    display: flex;
+    flex-shrink: 0;
+
+    align-items: center;
+    margin: 30px 95px 30px;
+    min-height: 200px;
+}
+
+.contacts iframe {
+    display: flex;
+    flex-shrink: 0;
+
+    align-items: center;
+    margin: 30px 95px 30px;
+    min-height: 200px;
+}
+
+.map-link {
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    padding-left: 90px;
+    color: #006b5d;
+}
+
+.map-link:hover,
+.map-link:focus {
+    opacity: 0.5;
+}
+
+.map-link:active {
+    color: #06d6bd;
+}
+
+.contacts-info {
+    margin: -10px 0 30px;
+}
+
+.contacts-info p {
+    position: relative;
+    padding-left: 106px;
+    margin: 12px 0;
+}
+
+.contact-phone::before {
+    position: absolute;
+    content: "";
+
+    width: 15px;
+    height: 18px;
+
+    top: 2px;
+    left: 90px;
+
+    background-image: url("img/icon-phone.png");
+}
+
+.contact-address::before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 18px;
+
+    top: 2px;
+    left: 90px;
+    background-image: url("img/icon-pin.png");
+}
+
+/* Файл contacts */
+
+
+/* Файл header */
+.site-navigation {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.site-header {
+    position: relative;
+    z-index: 2;
+    background: #006b5d;
+    margin: auto 0;
+    width: 100%;
+}
+
+.logo-link:hover,
+.logo-link:focus {
+    opacity: 0.5;
+}
+
+.logo-link:active {
+    opacity: 0.3;
+}
+
+.logo-link img {
+    margin: 10px 0;
+    width: 40px;
+    height: 40px;
+}
+
+.navigation-list {
+    display: flex;
+    padding: 0px;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.USERNAME {
+
+}
+
+.navigation-list a:hover,
+.navigation-list a:focus {
+    opacity: 0.5;
+}
+
+.navigation-list a:active {
+    color: #ffffff;
+}
+
+.navigation-list a {
+    display: block;
+    padding: 12px 15px 11px;
+
+    color: #ffffff;
+}
+
+/* Файл header */
+
+/* Файл features */
+.features .container {
+    z-index: -1;
+
+    margin: 40px auto 20px auto;
+    padding: 40px 0 0;
+    box-sizing: border-box;
+    background-image: url("img/FeaturesBook.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 433px;
+}
+
+.features-title b {
+    font-weight: 400;
+    text-shadow: 1px 1px grey;
+    color: #006b5d;
+}
+
+.features {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.features-title,
+.products-title {
+    padding: 0;
+    font-weight: 400;
+    width: 1345px;
+    margin: 110px auto 20px auto;
+    text-align: center;
+    color: #fff;
+    font: 45px/45px 'Fjalla One';
+    text-transform: uppercase;
+
+}
+
+.features-list {
+    display: flex;
+
+    padding: 0;
+    margin: 14px 0 0;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+.features-list li {
+    position: relative;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.features-list li::before {
+    position: absolute;
+    content: "";
+
+    top: 2px;
+    left: 0;
+}
+
+.feature-point {
+    padding-left: 22px;
+    width: 1345px;
+    margin: 20px auto 20px auto;
+    text-align: left;
+    font-weight: 400;
+    color: #fff;
+    font: 25px/25px 'Fjalla One';
+    text-transform: uppercase;
+}
+
+.feature-point::before {
+    width: 10px;
+    height: 10px;
+    background-image: url("img/point.png");
+    margin: 5px;
+}
+
+/* Файл features */
+
+/* Файл footer */
+footer {
+    z-index: 10;
+    clear: both;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    top: auto;
+}
+
+.site-footer {
+    background-color: #006b5d;
+}
+
+.site-footer .container {
+    display: flex;
+
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    margin: auto 0;
+
+    flex-shrink: 0;
+
+    color: #ffffff;
+}
+
+.site-footer .navigation-list {
+    margin-right: 15px;
+    margin-left: -15px;
+
+    justify-content: left;
+}
+
+.copyright + .navigation-list {
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.site-footer a {
+    display: block;
+    margin: 0;
+    padding: 14px 15px;
+
+    color: #ffffff;
+}
+
+.social-list {
+    display: flex;
+    width: 110px;
+    padding: 0;
+    margin: 0 -10px 2px;
+
+    justify-content: end;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    list-style: none;
+}
+
+.social-list a {
+    display: block;
+    width: 14px;
+    height: 14px;
+    padding: 10px;
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social-link-instagram {
+    background-image: url("img/icon-instagram.png");
+    background-size: 100% 100%;
+}
+
+.social-link-facebook {
+    background-image: url("img/icon-facebook.png");
+    background-size: 100% 100%;
+}
+
+.social-list a:hover,
+.social-list a:focus {
+    opacity: 0.5;
+}
+
+.social-list a:active {
+    opacity: 0.3;
+}
+
+/* Файл footer */
+
+/* Файл services */
+.services-background {
+    display: flex;
+    flex-shrink: 0;
+    width: 700px;
+    height: 467px;
+    align-items: center;
+    margin: 25px 250px 25px;
+
+    background-image: url("img/servises.jpg");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.services-text {
+    width: 210px;
+    margin-left: -100px;
+    padding: 16px 20px 20px;
+
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.services-text p {
+    margin: 8px;
+    padding: 0;
+}
+
+.services-text b {
+    font-weight: 400;
+
+    color: #006b5d;
+}
+
+.services {
+    margin: 15px 90px 15px;
+}
+
+.services-title {
+    margin: 20px;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+/* Файл services */
+
+/* Файл bib-info */
+.intro .container {
+    z-index: -1;
+
+    margin: 40px auto 20px auto;
+    padding: 40px 0 0;
+    box-sizing: border-box;
+    background-image: url("img/HeaderBook.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 433px;
+}
+
+.intro-title {
+    width: 1345px;
+    padding: 0;
+    margin: 110px auto 20px auto;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    font: 45px/45px 'Fjalla One';
+    text-transform: uppercase;
+}
+
+.show-case {
+    width: 1345px;
+    padding: 0;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    font: 30px/30px 'Fjalla One';
+    text-transform: uppercase;
+}
+
+.intro-title b {
+    font-weight: 400;
+    color: #006b5d;
+    text-shadow: 1px 1px grey;
+}
+
+.intro p {
+    width: 210px;
+    margin: 8px 0 10px;
+    padding: 0;
+    line-height: 20px;
+}
+
+/* Файл bib-info */

@@ -1,0 +1,15 @@
+::1 - - [13/Nov/2020:23:27:37 +0200] "GET /register.php HTTP/1.1" 200 296
+::1 - - [13/Nov/2020:23:27:38 +0200] "GET /favicon.ico HTTP/1.1" 404 196
+::1 - - [13/Nov/2020:23:27:45 +0200] "GET /index.php HTTP/1.1" 200 2556
+::1 - - [13/Nov/2020:23:30:21 +0200] "GET /index.html HTTP/1.1" 200 430
+::1 - - [13/Nov/2020:23:30:26 +0200] "POST /display.php HTTP/1.1" 404 196
+::1 - - [13/Nov/2020:23:30:33 +0200] "GET /display.php HTTP/1.1" 404 196
+::1 - - [13/Nov/2020:23:30:36 +0200] "GET /display.php HTTP/1.1" 404 196
+::1 - - [13/Nov/2020:23:33:07 +0200] "GET /index.html HTTP/1.1" 200 474
+::1 - - [13/Nov/2020:23:33:21 +0200] "GET /index.html HTTP/1.1" 200 474
+::1 - - [13/Nov/2020:23:34:04 +0200] "GET /index.html HTTP/1.1" 200 175
+::1 - - [13/Nov/2020:23:34:42 +0200] "GET /index.html HTTP/1.1" 200 458
+::1 - - [13/Nov/2020:23:36:04 +0200] "GET /display.php HTTP/1.1" 404 196
+::1 - - [13/Nov/2020:23:36:34 +0200] "GET /display.php HTTP/1.1" 200 174
+::1 - - [13/Nov/2020:23:36:54 +0200] "GET /index.php HTTP/1.1" 200 2556
+::1 - - [13/Nov/2020:23:36:59 +0200] "POST /display.php HTTP/1.1" 200 176
